@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/registro-desplegabe.css">
 
     
     
@@ -14,68 +15,87 @@
 </head>
 <body>
    
-  <div class="logo logo_main" > <a href="index.html">Kavak 2.0 </a> </div>
+<div class="logo logo_main" > <a href="index.html">Kavak 2.0 </a> </div>
     
-    <div class="nav">
-        <div class="wrap">
-            <div class="logo logo_small">Kavak 2.0</div>
-            <nav>
-                <ul>
-                    <li><a href="#">Comprar un auto</a></li>
-                    <li><a href="#">Cambia o vende tu auto</a></li>
-                    <li><a href="#">Aplicar credito</a></li>
-                   
-                    <li><a href="#"> Acerca de KAVAK 2.0</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"  data-toggle="dropdown" aria-expanded="false">
-                        Contáctanos
-                        </a>
-                        <ul class="dropdown-menu" class="nav nav-pills">
-                          <li><a class="dropdown-item" href="contacto.html">Habla con nosotros</a></li>
-                          <li><a class="dropdown-item" href="sedes.html">Sedes</a></li>
+  <div class="nav">
+      <div class="wrap">
+          <div class="logo logo_small">Kavak 2.0</div>
+          <nav>
+              <ul>
+                  <li><a href="#">Comprar un auto</a></li>
+                  <li><a href="cambia.html">Cambia o vende tu auto</a></li>
+                  <li><a href="#">Aplicar credito</a></li>
+                 
+                  <li><a href="#"> Acerca de KAVAK 2.0</a></li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"  data-toggle="dropdown" aria-expanded="false">
+                      Contáctanos
+                      </a>
+                      <ul class="dropdown-menu" class="nav nav-pills">
+                        <li><a class="dropdown-item" href="contacto.html">Habla con nosotros</a></li>
+                        <li><a class="dropdown-item" href="sedes.html">Sedes</a></li>
+                     
                        
-                         
-                         <!-- <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Separated link</a></li>
-                        </ul>
-                      </li>
-                      <li><a href="#">Registrate</a></li> -->
-                       </ul>
-            </nav>
-        </div>
-    </div>
+                       <!-- <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Registrate</a></li> -->
+                     </ul>
+                  </li>
+
+                  <li><a id="btn-abrir-popup" class="btn-abrir-popup" href="#">Registrate</a>
+                      <div class="overlay" id="overlay">
+                          <div class="popup" id="popup">
+                              <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+                              <h3>SUSCRIBETE</h3>
+                              <h4>y recibe un cupon de descuento.</h4>
+                              <form action="">
+                                  <div class="contenedor-inputs">
+                                      <input type="text" placeholder="Nombre">
+                                      <input type="email" placeholder="Correo">
+                                  </div>
+                                  <input type="submit" class="btn-submit" value="Suscribirse">
+                              </form>
+                          </div>
+                      </div>     
+                  </li>
+              </ul>           
+          </nav>
+      </div>
+  </div>
     
-    <div class="main">
-        <h1>UBICACION UNO</h1>
-        <hr>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta quisquam amet laudantium expedita nostrum nulla. Suscipit rerum sint sed debitis impedit sunt dolores praesentium iure aliquid corrupti expedita, odit culpa dolorum non possimus fugit, incidunt ipsum doloribus obcaecati quibusdam perspiciatis ullam iusto magnam. Totam quae saepe quos expedita voluptatibus harum! Itaque quibusdam magni corporis eaque obcaecati, voluptate est voluptatem libero recusandae voluptatum atque dolor, provident porro ut necessitatibus similique ad! Cupiditate velit animi vel dolorem aliquid tempore sed aspernatur veritatis.</p>
-      <div class="card-group">
-  <div class="card">
-    <img src="img/Ubi.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+  <div class="main">
+      <h1>UBICACION UNO</h1>
+      <hr>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta quisquam amet laudantium expedita nostrum nulla. Suscipit rerum sint sed debitis impedit sunt dolores praesentium iure aliquid corrupti expedita, odit culpa dolorum non possimus fugit, incidunt ipsum doloribus obcaecati quibusdam perspiciatis ullam iusto magnam. Totam quae saepe quos expedita voluptatibus harum! Itaque quibusdam magni corporis eaque obcaecati, voluptate est voluptatem libero recusandae voluptatum atque dolor, provident porro ut necessitatibus similique ad! Cupiditate velit animi vel dolorem aliquid tempore sed aspernatur veritatis.</p>
+    <div class="card-group">
+        <div class="card">
+            <img src="img/Ubi.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+          <div class="card">
+            <img src="img/Ubi.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/Ubi.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
     </div>
   </div>
-  <div class="card">
-    <img src="img/Ubi.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="img/Ubi.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-</div>
-    </div>
     <div class="main">
         <h1>UBICACION DOS</h1>
         <hr>
@@ -89,5 +109,6 @@
    <script src="js/script.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
    <script src="js/bootstrap.js"></script>
+   <script src="js/popup.js"></script>
 </body>
 </html>
