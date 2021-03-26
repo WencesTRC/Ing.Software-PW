@@ -38,6 +38,11 @@ h1{
     color: white;
     cursor: default;
 }
+.logo_main a{
+    color: rgb(255, 255, 255);
+    font-family: 'Anton';
+    font-size: 70px;
+}
 
 .logo_small{
     display: inline-block;
@@ -52,7 +57,7 @@ h1{
     float: left;
     width: 100%;
     background: #222;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 0 20px;
     transition: .3s ease all;
     backface-visibility: hidden;
@@ -192,12 +197,11 @@ body.nav_fixed .nav .wrap{
     .main{
     background: white;
     padding: 20px;
+    }
 }
-    
-    
-    
-    
-    
+
+.popup{
+    color: rgb(0, 0, 0);
 }
 
 
