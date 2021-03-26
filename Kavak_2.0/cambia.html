@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KAVAK</title>
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/cambia.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/registro-desplegabe.css">
+    <link rel="stylesheet" href="css/bxslider.css">
+    
+    
+
+    
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+<body>
+   
+    <div class="logo logo_main" > <a href="index.html">Kavak 2.0 </a> </div>
+    
+    <div class="nav">
+        <div class="wrap">
+            <div class="logo logo_small">Kavak 2.0</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Comprar un auto</a></li>
+                    <li><a href="cambia.html">Cambia o vende tu auto</a></li>
+                    <li><a href="#">Aplicar credito</a></li>
+                   
+                    <li><a href="#"> Acerca de KAVAK 2.0</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"  data-toggle="dropdown" aria-expanded="false">
+                        Contáctanos
+                        </a>
+                        <ul class="dropdown-menu" class="nav nav-pills">
+                          <li><a class="dropdown-item" href="contacto.html">Habla con nosotros</a></li>
+                          <li><a class="dropdown-item" href="sedes.html">Sedes</a></li>
+                       
+                         
+                         <!-- <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Separated link</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#">Registrate</a></li> -->
+                       </ul>
+                    </li>
+
+                    <li><a id="btn-abrir-popup" class="btn-abrir-popup" href="#">Registrate</a>
+                        <div class="overlay" id="overlay">
+                            <div class="popup" id="popup">
+                                <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+                                <h3>SUSCRIBETE</h3>
+                                <h4>y recibe un cupon de descuento.</h4>
+                                <form action="">
+                                    <div class="contenedor-inputs">
+                                        <input type="text" placeholder="Nombre">
+                                        <input type="email" placeholder="Correo">
+                                    </div>
+                                    <input type="submit" class="btn-submit" value="Suscribirse">
+                                </form>
+                            </div>
+                        </div>     
+                    </li>
+                </ul>           
+            </nav>
+        </div>
+    </div>
+
+    <div class="jumbotron">
+        <h1 class="display-4">Vende tu auto sin salir de casa en 3 simples pasos</h1>
+        <div class="media">
+            <img src="img/cotizar.png" class="mr-3" alt="...">
+            <div class="media-body">
+              <h4 class="mt-0">Cotizamos tu auto en un par de minutos</h4>
+              <p>Solo necesitamos el año, modelo, versión y kilometraje.</p>
+            </div>
+        </div>
+        <div class="media">
+            <img src="img/oferta.png" class="mr-3" alt="...">
+            <div class="media-body">
+              <h4 class="mt-0">Recibe una oferta al instante</h4>
+              <p>Puedes recibir hasta 4 ofertas: Pago al instante,<br>
+              utilizar tu auto a cuenta para comprar uno nuevo en KAVAK,<br>
+              pago a consignación y monto a crédito.</p>
+            </div>
+        </div>
+        <div class="media">
+            <img src="img/lugar.png" class="mr-3" alt="...">
+            <div class="media-body">
+              <h4 class="mt-0">Selecciona el lugar y la hora para la inspección de tu auto</h4>
+              <p>La inspección puede ser en tu oficina o domicilio.<br>
+              Si tu auto pasa nuestra inspección te lo pagamos el mismo día.</p>
+            </div>
+        </div>
+
+        <div id="contenedor">
+            <ul class="bxslider">
+                    <li><img src="img/Autos/1.jpg" title="Toyota"></li>
+                    <li><img src="img/Autos/2.jpg" title="Lincon"></li>
+                    <li><img src="img/Autos/3.jpg" title="BMW"></li>
+                    <li><img src="img/Autos/4.jpg" title="Hyundaai"></li>
+                    <li><img src="img/Autos/5.jpg" title="Mustang"></li>
+                    <li><img src="img/Autos/6.jpg" title="Ford"></li>
+                    <li><img src="img/Autos/7.jpg" title="Jeep"></li>
+                    <li><img src="img/Autos/8.jpg" title="Fiat"></li>
+                    <li><img src="img/Autos/9.jpg" title="Bananamovil"></li>
+                    <li><img src="img/Autos/10.jpg" title="Compre ahora"></li>
+                    <li><img src="img/Autos/11.jpg" title="Cotiza Ya!!"></li>
+                </ul>
+        </div>
+
+        <center>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Cotizar mi auto</a>
+        </center>    
+    </div>
+    
+    <i class="fas fa-ellipsis-v btn-menu"></i>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/bxslider.js"></script>
+    
+
+</body>
+</html>
