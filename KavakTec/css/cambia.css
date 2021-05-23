@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap|Anton');
+
+
+*{                                      /*edita la pocicion de las palabras en el nav*/
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+    padding: 0;
+    margin: 0;
+}
+
+.logo{                                  /*modifica el logo en el responsive*/
+    font-family: 'Anton';
+    font-size: 70px;
+}
+
+.logo_main{                             /*edita el logo que esta en el nav*/
+    height: 200px;
+    padding: 20px;
+    background: #566409;
+    color: rgb(255, 255, 255);
+    cursor: default;
+}
+.logo_main a{                           /*edita el color del logo que esta en el nav*/
+    color: rgb(255, 255, 255);
+    font-family: 'Anton';
+    font-size: 70px;
+}
+
+.logo_small{                            /*edita el color del logo que esta en el responsive*/
+    display: inline-block;
+    font-size: 20px;
+    padding: 4px;
+    margin-right: 50px;
+    color: #576604;
+    cursor: pointer;
+}
+
+.nav{                                  /*edita el nav*/
+    float: left;
+    width: 100%;
+    background: #222;
+    color: rgb(255, 255, 255);        /*edita el color de la palabra contactanos*/
+    padding: 0 20px;
+    transition: .3s ease all;
+    backface-visibility: hidden;
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+.nav .wrap{                             /* Reparar conflico con el responcive*/
+    position: relative;
+    left: 0px;                          /*posiscion de las palabras en el */
+    transition: 0.4s ease all;
+}
+
+nav ul{                                 /*edita el  margen del nav*/
+    margin: 0;
+    padding: 0;
+}
+
+nav li{                                 /*edita la orientacion de las palabras en el nav a horizontal*/
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+nav a{                                  /*edita el contenido del nav*/
+    display: block;
+    padding: 20px;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: 0.2s ease all;
+}
+
+nav a:hover{                           /*edita el reyyeno de las palabras en el nav a pasar sobre la palabra*/
+    color: white;
+    background: #576604;
+}
+
+.btn-menu{                              /*edita el boton del responcive*/
+    width: 60px;
+    height: 60px;
+    padding: 22px;
+    text-align: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #576604;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    transition: all 500ms cubic-bezier(1, 0, 0, 1);
+    transform: translateX(100px);
+}
+
+.btn-menu:hover{
+    transform: scale(1.2);
+  
+}
+
+.popup{                                 /*Edita el colo de registrate*/
+    color: rgb(0, 0, 0);
+}
+
+/*MENU RESPONSIVE*/
+
+@media screen and (max-width: 800px){
+    .btn-menu{
+        transform: translateX(0px);
+    }
+    
+    .logo_main{
+        display: none;
+    }
+    
+    .nav{                               /*edita el grsor del nav en el responcive*/
+        width: 30%;                     /*conflicto con el registro */
+        position: fixed;
+        top: 0;
+        height: 100vh;
+        padding: 0px;
+        transform: translateX(-100%);
+    }
+    
+    .nav .wrap{
+        left: 0;
+    }
+    
+    nav{                                /*edita la posicion delas palabras en el nav del*/
+        width: 100%;
+        position: absolute;
+        top: 60px;
+    }
+    
+    nav li{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    
+    .logo_small{                        /*edita la posicion del logo en el nav del responcive*/
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    
+    nav a{
+        width: 100%;
+        display: block;
+        padding: 20px;
+        margin: 0;
+    }
+    
+    .nav-toggle{
+        transition: all 300ms cubic-bezier(1,0,0,1);
+        transform: translateX(0%);
+    }
+    
+}
+
+
+

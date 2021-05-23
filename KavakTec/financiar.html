@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KAVAK</title>
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/registro-desplegabe.css">
+
+    
+    
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+<body>
+   
+    <div class="logo logo_main" > <a href="index.html">Kavak Tec </a> </div>
+    
+    <div class="nav">
+        <div class="wrap">
+            <div class="logo logo_small">Kavak Tec</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="explorar.php">Comprar</a></li>
+                    <li><a href="financiar.html">Financiar</a></li>
+                    <li><a href="vender.html">Vender</a></li>
+                    <li><a href="app.html">App KAVAKTEC</a></li>
+                    <li><a href="registro.html">Agregar</a></li>
+                    <li><a id="btn-abrir-popup" class="btn-abrir-popup" href="#">Registrate</a>
+                        <div class="overlay" id="overlay">
+                            <div class="popup" id="popup">
+                                <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+                                <h3>SUSCRIBETE</h3>
+                                <h4>y recibe un cupon de descuento.</h4>
+                                <form action="">
+                                    <div class="contenedor-inputs">
+                                        <input type="text" placeholder="Nombre">
+                                        <input type="email" placeholder="Correo">
+                                    </div>
+                                    <input type="submit" class="btn-submit" value="Suscribirse">
+                                </form>
+                            </div>
+                        </div>     
+                    </li>
+                     
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"  data-toggle="dropdown" aria-expanded="false">
+                      Nosotros
+                      </a>
+                      <ul class="dropdown-menu" class="nav nav-pills">
+                        <li><a class="dropdown-item" href="sedes.html">Sedes</a></li>
+                        <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                         <li><a class="dropdown-item" href="contacto.html">Contacto</a></li>
+                     </ul>
+                  </li>
+                </ul>           
+            </nav>
+        </div>
+    </div>
+    
+  <!--portada-->
+  <div>
+    <img class="card-img-top" src="img/Autos/omen.png" alt="Card image cap">
+  <div>
+    <div>
+        <img class="card-img-top" src="img/Autos/tresbox.png" alt="Card image cap">
+      <div>
+        <div>
+            <img class="card-img-top" src="img/Autos/teclado.png" alt="Card image cap">
+          <div>
+<!--finportada-->
+    <!--Carrusel-->
+    
+        <div id="Carrucel-home" class="carousel slide pointer-event" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#Carrucel-home" data-slide-to="0" class=""></li>
+            <li data-target="#Carrucel-home" data-slide-to="1" class="active"></li>
+            <li data-target="#Carrucel-home" data-slide-to="2" class=""></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item">
+              <img src="img/Autos/diademagamer.jpg" class="d-block w-100" alt="Asesorias">
+              <div class="carousel-caption">
+                  <h3>ASESORIAS</h3>
+              </div>
+           </div>
+  
+                  <div class="carousel-item active">
+                      <img src="img/Autos/monitor.jpg" class="d-block w-100" alt="Computo">
+                      <div class="carousel-caption">
+                          <h3>COMPUTO</h3>
+                          
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/Autos/diademagamer.jpg" class="d-block w-100" alt="mantenimiento">
+                    <div class="carousel-caption">
+                        <h3>MANTENIMIENTO</h3>
+                        
+                    </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/Autos/monitor.jpg" class="d-block w-100" alt="instalacion">
+                  <div class="carousel-caption">
+                      <h3>INSTALACION</h3>
+                      
+                  </div>
+              </div>
+       
+           
+          <a class="carousel-control-prev" href="#Carrucel-home" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+          </a>
+          <a class="carousel-control-next" href="#Carrucel-home" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+          </a>
+        </div>
+    </div>
+    <!--FinCarrusel-->
+    <!--Footer-->
+    <footer class="bg-dark text-center text-white">
+        <div class="container p-4 pb-0">
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/" role="button">
+                    <i class="fab fa-facebook-f"></i></a>
+    
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/home?lang=es" role="button">
+                    <i class="fab fa-twitter"></i></a>
+    
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://mail.google.com/mail/u/0/#inbox" role="button">
+                    <i class="fab fa-google"></i></a>
+    
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/?hl=es-la" role="button">
+                    <i class="fab fa-instagram"></i></a>
+    
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://mx.linkedin.com/" role="button">
+                    <i class="fab fa-linkedin-in"></i></a>
+    
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/" role="button">
+                    <i class="fab fa-github"></i></a>
+            </section>
+        </div>
+                <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="text-white" href="index.html">kavak tec</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <footer class="bg-light text-center text-lg-start">
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!--Grid row-->
+          <div class="row">
+    <!--Footer-->
+ 
+    
+    <i class="fas fa-ellipsis-v btn-menu"></i>
+    
+   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+   <script src="js/script.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+   <script src="js/bootstrap.js"></script>
+   <script src="js/popup.js"></script>
+
+</body>
+</html>
